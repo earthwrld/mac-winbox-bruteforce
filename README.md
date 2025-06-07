@@ -25,3 +25,72 @@
 ## ⚙️ Requirements
 
 - Linux (Debian/Kali/Ubuntu recommended)
+
+---
+
+## 🚀 Usage
+
+```bash
+./brmbox <MAC_ADDRESS>
+```
+
+Example:
+
+```bash
+./brmbox 4C:5E:0C:AA:BB:CC
+```
+
+Sample Output:
+
+```
+[*] Starting MAC brute-force on 4C:5E:0C:AA:BB:CC...
+[*] Trying...
+[+] SUCCESS! Username: admin | Password: 1234
+```
+
+---
+
+## 📂 Wordlists
+
+You need two files in the same directory:
+
+* `user.txt` — list of usernames
+* `pass.txt` — list of passwords
+
+Example content:
+
+**user.txt**
+
+```
+admin
+user
+test
+```
+
+**pass.txt**
+
+```
+admin
+1234
+password
+```
+
+---
+
+## 🛑 Disclaimer
+
+This tool is for:
+
+* Ethical hacking & red team simulation
+* Penetration testing with proper authorization
+* Educational use only
+
+⚠️ Never use this tool on unauthorized networks or devices. The author takes no responsibility for misuse.
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
+
+```
