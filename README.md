@@ -15,8 +15,6 @@
 ## 🧩 Features
 
 - Brute force MikroTik via **MAC address**, not IP.
-- Works with **MikroTik CHR + Winbox** setup (VirtualBox/VMware).
-- Uses `mac-telnet` to connect over Layer 2.
 - Clean output with progress and results.
 - Wordlist-based brute force (username & password).
 
